@@ -1,0 +1,77 @@
+h1 {
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+label {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'EB Garamond', serif;
+}
+
+textarea {
+    font-family: 'EB Garamond', serif;
+}
+
+.order-container {
+    margin: 200px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.order-form {
+    display: grid;
+    grid-template-columns: 200px 300px;
+    text-align: right;
+    gap: 15px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.text-input {
+    border-radius: 4px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.number-input {
+    border-radius: 4px;
+    width: 50px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.textarea-input {
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.dropdown {
+    height: 30px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 150px;
+    margin: 1%;
+    border-radius: 4px;
+    background-color:#006311;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #89ca94;
+    color: #006311;
+    transition: all 0.3s ease-out;
+}
