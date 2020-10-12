@@ -1,6 +1,8 @@
-h1 {
+.order-header {
     color: white;
     font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    padding: 2%;
 }
 
 label {
@@ -33,6 +35,7 @@ textarea {
 }
 
 .text-input {
+    padding: 3%;
     border-radius: 4px;
     height: 25px;
     font-size: 18px;
@@ -40,12 +43,14 @@ textarea {
 
 .number-input {
     border-radius: 4px;
-    width: 50px;
+    padding: 3%;
+    width: 60px;
     height: 25px;
     font-size: 18px;
 }
 
 .textarea-input {
+    padding: 3%;
     border-radius: 4px;
     font-size: 18px;
 }
@@ -59,7 +64,7 @@ textarea {
 .btn {
     border: none;
     padding: 10px 150px;
-    margin: 1%;
+    margin: 3%;
     border-radius: 4px;
     background-color:#006311;
     color: white;

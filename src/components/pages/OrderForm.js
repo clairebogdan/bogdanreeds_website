@@ -20,7 +20,7 @@ export default function OrderForm() {
     
       return (
         <div className='order-container'>
-            <h1>Order Inquiry</h1>
+            <h1 className="order-header">Order Inquiry</h1>
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
                 
