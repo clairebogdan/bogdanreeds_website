@@ -1,0 +1,35 @@
+.palms {
+    background: url('../assets/palm-leaves.jpg') 0 0 no-repeat;
+    background-size: cover;
+    padding-bottom: 65.89%;
+    height: 0;
+    text-align: center; 
+}
+
+.home-text-outer {
+    margin: 0 auto;
+    z-index: 1000;
+    padding: 20px;
+    font-weight: bold;
+    height: 10%;
+    min-height: 500px;
+    width: 30%;
+    min-width: 600px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-text-inner {
+    display: block;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: 30%;
+    padding: 20px;
+    width: 600px;
+    height: 330px;
+  }
+
+  .welcome-text {
+      font-size: 100px;
+  }
