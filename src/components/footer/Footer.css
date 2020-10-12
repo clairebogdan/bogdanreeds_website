@@ -1,0 +1,11 @@
+.footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 150px 10px 10px;
+    column-gap: 3%;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #001303;
+    color: #cccccc;
+  }

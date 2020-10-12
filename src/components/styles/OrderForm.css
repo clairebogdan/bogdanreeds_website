@@ -61,7 +61,7 @@ label {
     padding: 10px 150px;
     margin: 3%;
     border-radius: 4px;
-    background-color:#006311;
+    background-color:#00420b;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -72,6 +72,6 @@ label {
 
 .btn:hover {
     background-color: #89ca94;
-    color: #006311;
+    color: #00420b;
     transition: all 0.3s ease-out;
 }

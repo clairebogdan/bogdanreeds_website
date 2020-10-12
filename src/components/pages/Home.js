@@ -14,6 +14,20 @@ export default function Home() {
             </div>
         </div>
 
+        <div className="reviews">
+            <div className="quote">
+                "Hey these reeds are good"
+                <br/>
+                <span className='sig'>- Joe Bob, band director</span>
+            </div>
+
+            <div className="quote">
+                "I love them"
+                <br/>
+                <span className='sig'>- Ann Duit, oboist</span>
+            </div>
+        </div>
+
         <OrderForm/>
         </>
     );

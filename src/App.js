@@ -4,7 +4,9 @@ import Home from './components/pages/Home';
 import Order from './components/pages/Order';
 import ReedCare from './components/pages/ReedCare';
 import About from './components/pages/About';
-import Navbar from './components/navbar/Navbar.js'
+import Gallery from './components/pages/Gallery';
+import Navbar from './components/navbar/Navbar.js';
+import Footer from './components/footer/Footer.js'
 
 import './App.css';
 
@@ -19,7 +21,10 @@ function App() {
         <Route path='/order' exact component={Order}/>
         <Route path='/about' exact component={About}/>
         <Route path='/reedcare' exact component={ReedCare}/>
+        <Route path='/gallery' exact component={Gallery}/>
       </Switch>
+
+      <Footer/>
 
     </Router>
   );

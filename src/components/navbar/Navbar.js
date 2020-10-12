@@ -26,18 +26,25 @@ export default function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
                 <li className='nav-item'>
+                    <Link to='/order' className='nav-links' onClick={closeMobileMenu}>
+                        Order
+                    </Link> 
+                </li>
+                <li className='nav-item'>
                     <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                         About
                     </Link>
+                    
                 </li>
                 <li className='nav-item'>
                     <Link to='/reedcare' className='nav-links' onClick={closeMobileMenu}>
                         Reed Care
                     </Link>
                 </li>
+
                 <li className='nav-item'>
-                    <Link to='/order' className='nav-links' onClick={closeMobileMenu}>
-                        Order
+                    <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
+                        Gallery
                     </Link>
                 </li>
             </ul>
