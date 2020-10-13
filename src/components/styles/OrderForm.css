@@ -6,7 +6,6 @@
 
 label {
     color: white;
-    font-weight: bold;
 }
 
 .order-container {
@@ -17,7 +16,7 @@ label {
 
 .order-form {
     display: grid;
-    grid-template-columns: 200px 300px;
+    grid-template-columns: 300px 300px;
     text-align: right;
     gap: 15px;
     justify-content: center;

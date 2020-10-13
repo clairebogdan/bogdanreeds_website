@@ -98,7 +98,7 @@ export default function OrderForm() {
                 <label>Zip: </label>
                 <input type="text" className="text-input" name="zip"/>
                 
-                <label>Number of reeds: </label>
+                <label>Number of reeds ($25/ea): </label>
                 <input type="number" className="number-input" name="quantity"/>
                 
                 <label>Shipping method: </label>

@@ -6,25 +6,29 @@ import OrderForm from './OrderForm';
 export default function Home() {
     return (
         <>
-        <div className='palms'>
-            <div className='home-text-outer'>
-                <div className='home-text-inner'>
-                    <h1 className='welcome-text'>Bogdan Reeds</h1>
-                </div>
-            </div>
-        </div>
+        <div className='palms'></div>
 
-        <div className="reviews">
+        <div className="review">
             <div className="quote">
                 "Hey these reeds are good"
                 <br/>
                 <span className='sig'>- Joe Bob, band director</span>
             </div>
+        </div>
 
+        <div className="review">
             <div className="quote">
                 "I love them"
                 <br/>
-                <span className='sig'>- Ann Duit, oboist</span>
+                <span className='sig'>- Ann Duit, professional oboist</span>
+            </div>
+        </div>
+
+        <div className="review">
+            <div className="quote">
+                "Great reeds everytime!"
+                <br/>
+                <span className='sig'>- Parker Keen, high school oboist</span>
             </div>
         </div>
 

@@ -12,9 +12,10 @@ export default function Order() {
         </div>
 
         <div className="order-desc">
-            <p>The order inquiry form below will email me all the necessary information that I will 
-                need for your order. This form does NOT make your order official. Rather, it begins 
-                our conversation and speeds up the process. 
+            <p>Start your Bogdan Reeds order by filling out the email form below!
+                <br/><br/>
+                Once I receive your email, I will let you know if I can complete your order request. 
+                Your order will be completed once we correspond over email to exchange payment information.
                 <br/><br/>
                 Reeds are $25 each. Standard shipping is $5, and priority shipping is $8.
             </p>
