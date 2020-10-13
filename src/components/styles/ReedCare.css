@@ -1,0 +1,22 @@
+.reed-care-box {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.topic {
+    text-align: center;
+}
+
+.arrow-grid {
+    display: grid;
+    grid-template-columns: 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 200px 100px 200px;
+}
