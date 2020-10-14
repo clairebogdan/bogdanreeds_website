@@ -11,7 +11,7 @@ export default function ReedCare() {
             <img src={reeds} alt="several reeds"></img>
         </div>
         <div className='reed-care-box'>
-            <h1 className="topic">General Care</h1><br/>
+            <h1 className="topic">General Tips</h1><br/>
             <ul>
                 <li>Every reed is different! Some reeds are great for high notes, some are great for low notes, 
                     and some are great in all registers. Use this to your advantage! For example, if you have a piece with lots 

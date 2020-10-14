@@ -11,12 +11,7 @@ export default function About() {
             <img src={me} alt="claire bogdan with oboe next to river" width="80%" height="80%"></img>
         </div>
 
-        <div className="about-header">
-            <h1>About Bogdan Reeds</h1>
-        </div>
-        
-        <div className='about-grid'>
-            <div className='about-grid-item'>
+        <div className='about-container'>
                 <p>Bogdan Reeds was established in 2017 under its original name, Oboe Reeds 
                     by Claire Bogdan. In June 2019, the name was changed to Bogdan Reeds. Bogdan Reeds 
                     is owned and operated by Claire Bogdan. Claire Bogdan is a full-time software engineer 
@@ -46,17 +41,13 @@ export default function About() {
                     make reeds in as large quantities as she used to when she was freelancing, Claire really enjoys 
                     the art of making reeds! 
                 </p>
-            </div>
 
-            <div className='about-grid-item'>
-                <img src={thread} alt="oboe reed and thread" width="100%" height="100%"></img>
-            </div>
+            
         </div>
         
-        <div className="about-header">
-            <h1>Bogdan Reeds specs</h1>
-        </div>
-        <div className='about-container'>
+        <div className='about-grid'>
+            <div className="about-grid-item">
+            <h1>Bogdan Reeds specs</h1> <br/>
             <p>
                 <strong>Cane:</strong>
                 <br/>
@@ -75,6 +66,10 @@ export default function About() {
                 <br/>
                 - 47mm
             </p>
+            </div>
+            <div className='about-grid-pic'>
+                <img src={thread} alt="oboe reed and thread" width="100%" height="100%"></img>
+            </div>
         </div>
         </>
     );
