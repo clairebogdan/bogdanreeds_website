@@ -19,9 +19,10 @@ export default function About() {
                     band director. 
                     <br/><br/>
                     Claire learned how to make reeds when she was 12 years old. Over several years, she 
-                    perfected her craft of making reeds. Claire studied with oboe Rebecca Nagel at the 
+                    perfected her craft of making reeds. Claire studied oboe with Dr. Rebecca Nagel at the 
                     Univeristy of South Carolina, where she obtained her Bachelor of Music Education degree 
-                    and her Perforamnce Certificate in Oboe. While at UofSC, Claire was the principal oboist of the Wind Ensemble. Claire also performed 
+                    and her Performance Certificate in Oboe. While at UofSC, 
+                    Claire was the principal oboist of the Wind Ensemble. Claire also performed 
                     with the UofSC Symphony Orchestra and various chamber ensembles.
                     <br/><br/>
                     In 2016, Claire began selling reeds to her friends that needed oboe reeds for their 
