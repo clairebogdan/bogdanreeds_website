@@ -47,7 +47,7 @@ export default function About() {
         
         <div className='about-grid'>
             <div className="about-grid-item">
-            <h1>Bogdan Reeds specs</h1> <br/>
+            <h1>Specs</h1> <br/>
             <p>
                 <strong>Cane:</strong>
                 <br/>
