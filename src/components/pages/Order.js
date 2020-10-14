@@ -15,9 +15,15 @@ export default function Order() {
             <p>Start your Bogdan Reeds order by filling out the email form below!
                 <br/><br/>
                 Once I receive your email, I will let you know if I can complete your order request. 
-                Your order will be completed once we correspond over email to exchange payment information.
+                Please note that I am a full-time software engineer and I make reeds in my spare time. 
+                Your order request will be finalized once we correspond over email. 
+                 
                 <br/><br/>
-                Reeds are $25 each. Standard shipping is $5, and priority shipping is $8.
+                Reeds are $25 each
+                <br/><br/>
+                Standard shipping - $5
+                <br/>
+                Priority shipping - $8
             </p>
         </div>
 

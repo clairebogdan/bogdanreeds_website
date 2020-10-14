@@ -12,7 +12,7 @@ export default function Home() {
             <div className="quote">
                 "Hey these reeds are good"
                 <br/>
-                <span className='sig'>- Joe Bob, band director</span>
+                <span className='sig'>- Burke Mounts, oboist</span>
             </div>
         </div>
 
@@ -20,7 +20,7 @@ export default function Home() {
             <div className="quote">
                 "I love them"
                 <br/>
-                <span className='sig'>- Ann Duit, professional oboist</span>
+                <span className='sig'>- Ava Terzulli, high school oboist</span>
             </div>
         </div>
 
@@ -28,7 +28,7 @@ export default function Home() {
             <div className="quote">
                 "Great reeds everytime!"
                 <br/>
-                <span className='sig'>- Parker Keen, high school oboist</span>
+                <span className='sig'>- Meredith Melven, middle school band director</span>
             </div>
         </div>
 
