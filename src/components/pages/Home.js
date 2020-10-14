@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="review">
             <div className="quote">
-                "Hey these reeds are good"
+                "Review 1"
                 <br/>
                 <span className='sig'>- Burke Mounts, oboist</span>
             </div>
@@ -18,15 +18,15 @@ export default function Home() {
 
         <div className="review">
             <div className="quote">
-                "I love them"
+                "Review 2"
                 <br/>
-                <span className='sig'>- Ava Terzulli, high school oboist</span>
+                <span className='sig'>- AT, high school oboist</span>
             </div>
         </div>
 
         <div className="review">
             <div className="quote">
-                "Great reeds everytime!"
+                "Review 3"
                 <br/>
                 <span className='sig'>- Meredith Melven, middle school band director</span>
             </div>
