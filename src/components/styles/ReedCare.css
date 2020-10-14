@@ -3,20 +3,35 @@
     margin-bottom: 5%;
     margin-right: 15%;
     margin-left: 15%;
+    font-size: 25px;
 }
 
 .topic {
     text-align: center;
 }
 
-.arrow-grid {
+.do-dont-grid {
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: 50% 50%;
     text-align: center;
     justify-content: center;
+    margin: 10%;
+    font-size: 25px;
+    column-gap: 40px;
 }
 
-.grid-item {
-    display: grid;
-    grid-template-columns: 200px 100px 200px;
+.do {
+    text-align: left;
+}
+
+.dont {
+    text-align: left;
+}
+
+.fa-check {
+    color: rgb(5, 255, 5);
+}
+
+.fa-times-circle {
+    color: red;
 }
