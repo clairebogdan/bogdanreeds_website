@@ -8,7 +8,7 @@ export default function Order() {
     return (
         <>
         <div className='label'>
-            <img className='img' src={label} alt="label for bogdan reeds"/>
+            <img className='img' src={label} alt="label for bogdan reeds" width="100%" height="100%"/>
         </div>
 
         <div className="order-desc">

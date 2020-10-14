@@ -8,7 +8,7 @@ export default function About() {
     return (
         <>
         <div className="img-container">
-            <img src={me} alt="claire bogdan with oboe next to river" width="80%" height="80%"></img>
+            <img src={me} alt="claire bogdan with oboe next to river" width="90%" height="90%"></img>
         </div>
 
         <div className='about-container'>
@@ -68,7 +68,7 @@ export default function About() {
             </p>
             </div>
             <div className='about-grid-pic'>
-                <img src={thread} alt="oboe reed and thread" width="100%" height="100%"></img>
+                <img className="picture" src={thread} alt="oboe reed and thread" width="400px" height="400px"></img>
             </div>
         </div>
         </>

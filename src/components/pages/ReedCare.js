@@ -8,7 +8,7 @@ export default function ReedCare() {
         <>
 
         <div className="img-container">
-            <img src={reeds} alt="several reeds"></img>
+            <img src={reeds} alt="several reeds" width="100%" height="100%"></img>
         </div>
         <div className='reed-care-box'>
             <h1 className="topic">General Tips</h1><br/>

@@ -9,7 +9,7 @@ label {
 }
 
 .order-container {
-    margin: 200px auto;
+    margin: 0 auto;
     justify-content: center;
     text-align: center;
 }
@@ -30,6 +30,7 @@ label {
     height: 40px;
     font-size: 25px;
     color: black;
+    border: none;
 }
 
 .number-input {
@@ -39,6 +40,7 @@ label {
     height: 40px;
     font-size: 25px;
     color: black;
+    border: none;
 }
 
 .textarea-input {
@@ -46,13 +48,16 @@ label {
     border-radius: 4px;
     font-size: 25px;
     color: black;
+    border: none;
 }
 
 .dropdown {
     height: 40px;
+    border-radius: 4px;
     font-family: 'EB Garamond', serif;
     font-size: 25px;
     color: black;
+    border: none;
 }
 
 .btn {
@@ -73,4 +78,37 @@ label {
     background-color: #89ca94;
     color: #00420b;
     transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .order-form {
+        grid-template-columns: 150px 250px;
+        font-size: 20px;
+        
+    }
+    
+    .text-input {
+        height: 30px;
+        font-size: 20px;
+    }
+    
+    .number-input {
+        height: 45px;
+        font-size: 20px;
+    }
+    
+    .textarea-input {
+        font-size: 20px;
+    }
+    
+    .dropdown {
+        height: 30px;
+        font-size: 20px;
+    }
+    
+    .btn {
+        padding: 10px 80px;
+        font-size: 20px;
+    }
 }
