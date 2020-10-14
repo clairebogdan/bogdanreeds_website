@@ -1,10 +1,14 @@
 import React from 'react';
 import '../../App.css'
+import '../styles/Gallery.css'
 
 export default function Gallery() {
     return (
         <>
-        <h1>this is the gallery</h1>
+        <div className="gallery-grid">
+            <br/>
+            <center>Pictures coming soon!</center>
+        </div>
         </>
     );
 }

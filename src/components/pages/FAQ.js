@@ -22,8 +22,8 @@ export default function FAQ() {
                     4 days it takes to make a reed from start to finish, and shipping time.
                     However, it is advised that you plan for it to take about 2 weeks, 
                     especially if you are ordering 4 or more reeds. 
-                    Since Claire works full-time as a 
-                    software engineer, she can only make reeds in her spare time.
+                    Since I work full-time as a 
+                    software engineer, I can only make reeds in my spare time.
                 </div>
             </div>
 
@@ -47,8 +47,9 @@ export default function FAQ() {
                 </div>
 
                 <div className='answer'>
-                    Unfortunately, once the reed is in your possession, it is your responsibility (no refund). 
-                    If it arrived broken, I will send you another one free of charge.
+                    Once the reed is in your possession, it is your responsibility (no refund). 
+                    If it arrived broken, I will send you another one free of charge. In my experience, 
+                    none of my reeds have ever arrived broken.
                 </div>
             </div>
 
