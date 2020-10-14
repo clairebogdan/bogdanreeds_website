@@ -1,0 +1,15 @@
+.faq-container {
+    margin: 7%;
+}
+
+.QA {
+    padding: 3%;
+}
+
+.question {
+    font-size: 40px;
+}
+
+.answer {
+    font-size: 25px;
+}
