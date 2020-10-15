@@ -83,7 +83,7 @@ label {
 @media screen and (max-width: 800px) {
     
     .order-form {
-        grid-template-columns: 150px 250px;
+        grid-template-columns: 140px 230px;
         font-size: 20px;
         
     }
