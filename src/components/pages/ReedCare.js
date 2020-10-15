@@ -26,7 +26,7 @@ export default function ReedCare() {
                 <li>Old reed not sounding too great? It has probably run its course, and is now a "dead" reed. Time for a new one!
                 </li>
                 <br/>
-                <li>Soaking the reed in cold water can cause opening of the reed, 
+                <li>Soaking the reed in cold water can cause a smaller opening of the reed, 
                     and warm water can cause a larger opening of the reed. You usually can't go wrong 
                     with soaking in lukewarm water.</li>
                     <br/>
@@ -34,7 +34,16 @@ export default function ReedCare() {
                     The crossover is where the thread crosses over other strands of thread.
                 </li>
                 <br/>
-                <li>Reeds can change with the weather, but not always (cold or dry = closed reed, hot or humid = open reed)</li>
+                <li>If you reed opening is too small, try pinching the reed open by gently squeezing the sides. 
+                    Don't squeeze too hard or the reed will crack!
+                    You can also try soaking it in warmer water next time.
+                </li>
+                <br/>
+                <li>If your reed opening is too large, try pinching the reed closed by gently squeezing the cane 
+                    together. You can also try soaking it in cold water next time.
+                </li>
+                <br/>
+                <li>Reeds can change with the weather. Cold or dry = closed reed. Hot or humid = open reed.</li>
                 <br/>
                 <li>If the reed thread starts to unravel, try to save it! Do not let it unravel. 
                     Use super glue to put it back in place. 
@@ -69,7 +78,7 @@ export default function ReedCare() {
                     <i class="fas fa-times-circle"/> Play on only one reed everyday. This will cause that reed to die quicker. Rotating reeds 
                     everyday extends their lives.
                     <br/><br/>
-                    <i class="fas fa-times-circle"/> Be careless with you reed, and letting other people play your reed. Unless you <i>really </i> 
+                    <i class="fas fa-times-circle"/> Be careless with you reed, and let other people play your reed. Unless you <i>really </i> 
                     trust this person, no one should ever handle your oboe reeds besides you!
             </div>
         </div>
