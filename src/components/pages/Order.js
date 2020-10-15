@@ -19,7 +19,7 @@ export default function Order() {
                 Your order request will be finalized once we correspond over email. 
                  
                 <br/><br/>
-                Reeds are $25 each
+                Oboe reeds are $25 each
                 <br/><br/>
                 Standard shipping - $5
                 <br/>

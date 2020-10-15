@@ -132,6 +132,17 @@ export default function FAQ() {
                 </div>
             </div>
 
+            <div className='QA'>
+                <div className="question">
+                    Do you sell English Horn or Oboe d'amore reeds?
+                </div>
+                
+                <div className='answer'>
+                    Unfortuantely, no. Since I do not own an English Horn or Oboe d'amore, I would not 
+                    be able to test the reeds.
+                </div>
+            </div>
+
         </div>
         </>
     );

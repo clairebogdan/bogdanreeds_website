@@ -18,7 +18,7 @@ export default function About() {
                     in Columbus, Ohio, but is also a professionally trained oboist and former middle school 
                     band director. 
                     <br/><br/>
-                    Claire learned how to make reeds when she was 12 years old. Over several years, she 
+                    Claire learned how to make oboe reeds when she was 12 years old. Over several years, she 
                     perfected her craft of making reeds. Claire studied oboe with Dr. Rebecca Nagel at the 
                     Univeristy of South Carolina, where she obtained her Bachelor of Music Education degree 
                     and her Performance Certificate in Oboe. While at UofSC, 

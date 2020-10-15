@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="review">
             <div className="quote">
-                "Great quality reeds, could definitely use these professionally. They've 
+                "Great quality oboe reeds, could definitely use these professionally. They've 
                 got rich tone, great response, and excellent durability. More than met my needs as an oboe 
                 performance major."
                 <br/>
