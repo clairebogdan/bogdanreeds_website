@@ -18,22 +18,6 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="review">
-            <div className="quote">
-                "Review 2"
-                <br/>
-                <span className='sig'>- AT, high school oboist</span>
-            </div>
-        </div>
-
-        <div className="review">
-            <div className="quote">
-                "Review 3"
-                <br/>
-                <span className='sig'>- Meredith Melven, middle school band director</span>
-            </div>
-        </div>
-
         <OrderForm/>
         </>
     );

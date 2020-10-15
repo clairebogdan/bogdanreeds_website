@@ -10,9 +10,10 @@ export default function OrderForm() {
     
         emailjs.sendForm('bogdanreeds', 'bogdanreeds', e.target, 'user_jS6RUTjj8a1tc2Yozo8kf')
           .then((result) => {
-              console.log("sent");
+              alert("Your order inquiry was sent to Bogdan Reeds!");
               console.log(result.text);
           }, (error) => {
+                alert("Error: " + error.text);
               console.log(error.text);
           });
           e.target.reset()

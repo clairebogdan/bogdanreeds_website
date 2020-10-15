@@ -31,7 +31,7 @@ export default function About() {
                     started to spread, and people outside of her network started contacting her for reeds. 
                     <br/><br/>
                     While Claire was a middle school band director from 2017-2019, she continued to make and sell 
-                    her reeds in her spare time. However, in June 2019, Claire left teaching to 
+                    her reeds in her spare time. In June 2019, Claire left teaching to 
                     pursue a degree in Computer Science. During this time, Claire worked as a freelance oboist -- 
                     she taught 12 private students, performed with the Charleston Wind Symphony, and changed the name 
                     of her reed business to Bogdan Reeds. Bogdan Reeds started to have even more reach, selling to 
@@ -39,8 +39,8 @@ export default function About() {
                     <br/><br/>
                     As of October 2020, Claire is a full-time software engineer in Columbus, Ohio. Just as she did when 
                     she was a teacher, she continues to make and sell her reeds in her spare time. While she cannot 
-                    make reeds in as large quantities as she used to when she was freelancing, Claire really enjoys 
-                    the art of making reeds! 
+                    make reeds in as large quantities as she used to when she was freelancing, Claire continues to meet her 
+                    customers' needs.  
                 </p>
 
             
