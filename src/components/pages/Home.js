@@ -10,7 +10,9 @@ export default function Home() {
 
         <div className="review">
             <div className="quote">
-                "Review 1"
+                "Great quality reeds, could definitely use these professionally. They've 
+                got rich tone, great response, and excellent durability. More than met my needs as an oboe 
+                performance major."
                 <br/>
                 <span className='sig'>- Burke Mounts, oboist</span>
             </div>
