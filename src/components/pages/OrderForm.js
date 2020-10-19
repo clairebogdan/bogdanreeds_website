@@ -21,6 +21,11 @@ export default function OrderForm() {
     
       return (
         <div className='order-container'>
+            <div className='notification'>
+                <h3 className='alert-text'>UPDATE: Currently out of stock! Restocking will occur in November.
+                Thank you for your patience!
+                </h3>
+            </div>
             <h1 className="order-header">Order Inquiry</h1>
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
