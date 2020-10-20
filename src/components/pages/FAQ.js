@@ -11,7 +11,7 @@ export default function FAQ() {
         </div>
 
         <div className="faq-container">
-            
+
             <div className='QA'>
                 <div className="question">
                     How long will it take to get my reed?
