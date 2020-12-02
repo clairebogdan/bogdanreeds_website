@@ -22,8 +22,7 @@ export default function OrderForm() {
       return (
         <div className='order-container'>
             <div className='notification'>
-                <h3 className='alert-text'>Please allow 2 weeks to complete any orders during 
-                the holiday season. Thank you!
+                <h3 className='alert-text'>ORDER FORM IS TEMPORARILY DISABLED. Please email me directly at bogdanreeds@gmail.com in the meantime.
                 </h3>
             </div>
             <h1 className="order-header">Order Inquiry</h1>
@@ -137,7 +136,7 @@ export default function OrderForm() {
                 <textarea className="textarea-input" id="" cols="30" rows="8" placeholder="Feel free to write about your oboe experience, how you like your reeds, etc." name="message"></textarea>
                 </div>
 
-                <input type="submit" className="btn" value="Send"></input>
+                <input type="submit" className="btn" value="Send Disabled" disabled></input>
             </form>
         </div>
       );
