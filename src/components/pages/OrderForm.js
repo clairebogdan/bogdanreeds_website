@@ -22,7 +22,7 @@ export default function OrderForm() {
       return (
         <div className='order-container'>
             <div className='notification'>
-                <h3 className='alert-text'>ORDER FORM IS TEMPORARILY DISABLED. Please email me directly at bogdanreeds@gmail.com in the meantime.
+                <h3 className='alert-text'>Restock underway. Please allow additional time for your order to be completed. Thank you!
                 </h3>
             </div>
             <h1 className="order-header">Order Inquiry</h1>
