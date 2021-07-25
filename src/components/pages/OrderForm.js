@@ -22,7 +22,7 @@ export default function OrderForm() {
       return (
         <div className='order-container'>
             <div className='notification'>
-                <h3 className='alert-text'>8 reeds in stock as of January 2, 2020
+                <h3 className='alert-text'>OUT OF OFFICE until late August 2021.
                 </h3>
             </div>
             <h1 className="order-header">Order Inquiry</h1>
