@@ -1,5 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+// import ReCaptchaV2 from 'react-google-recaptcha';
+// import randomstring from 'randomstring';
 
 import '../styles/OrderForm.css'
 
@@ -30,23 +32,23 @@ export default function OrderForm() {
                 <div className='order-form'>
                 
                 <label>Full Name: </label>
-                <input type="text" className="text-input" name="from_name"/>
+                <input required type="text" className="text-input" name="from_name"/>
                 
                 <label>Email: </label>
-                <input type="email" className="text-input" name="from_email"/>
+                <input required type="email" className="text-input" name="from_email"/>
                 
                 <label>Street Address 1: </label>
-                <input type="text" className="text-input" name="address1"/>
+                <input required type="text" className="text-input" name="address1"/>
                 
                 <label>Street Address 2: </label>
                 <input type="text" className="text-input" placeholder="optional" name="address2"/>
                 
                 <label>City: </label>
-                <input type="text" className="text-input" name="city"/>
+                <input required type="text" className="text-input" name="city"/>
                 
                 <label>State: </label>
-                    <select className="dropdown" name="state">
-                        <option value="none" selected>---</option>
+                    <select required className="dropdown" name="state">
+                        <option selected disabled="true"></option> 
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
                         <option value="AZ">Arizona</option>
@@ -101,21 +103,21 @@ export default function OrderForm() {
                     </select>
 
                 <label>Zip: </label>
-                <input type="text" className="text-input" name="zip"/>
+                <input required type="text" className="text-input" name="zip"/>
                 
                 <label>Number of reeds ($25/ea): </label>
-                <input type="number" className="number-input" name="quantity"/>
+                <input required type="number" className="number-input" name="quantity"/>
                 
                 <label>Shipping method: </label>
-                    <select className="dropdown" name="shipping">
-                        <option value="not selected" selected>---</option>
+                    <select required className="dropdown" name="shipping">
+                        <option selected disabled="true"></option> 
                         <option value="Standard">Standard $5</option>
                         <option value="Priority">Priority $8</option>
                     </select>
 
                 <label>Payment method: </label>
-                    <select className="dropdown" name="payment">
-                        <option value="not selected" selected>---</option>
+                    <select required className="dropdown" name="payment">
+                        <option selected disabled="true"></option> 
                         <option value="Venmo">Venmo</option>
                         <option value="Cash App">Cash App</option>
                         <option value="Apple Pay">Apple Pay</option>
@@ -124,19 +126,18 @@ export default function OrderForm() {
                     </select>
 
                 <label>Oboe experience: </label>
-                    <select className="dropdown" name="years">
-                        <option value="not selected" selected>---</option>
+                    <select required className="dropdown" name="years">
+                        <option selected disabled="true"></option> 
                         <option value="True Beginner">Beginner (under 1 year)</option>
                         <option value="Intermediate">Intermediate (1 or 2 years)</option>
                         <option value="Advanced">Advanced (3 or 4 years)</option>
                         <option value="Advanced Plus">Advanced Plus (over 4 years)</option>
                     </select>
 
-                <label>Message: </label>
-                <textarea className="textarea-input" id="" cols="30" rows="8" placeholder="Feel free to write about your oboe experience, how you like your reeds, etc." name="message"></textarea>
+                    <label>Message: </label>
+                    <textarea className="textarea-input" id="" cols="30" rows="8" placeholder="Feel free to write about your oboe experience, how you like your reeds, etc." name="message"></textarea>
                 </div>
-
-                <input type="submit" className="btn" value="Send"></input>
+                <input id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
         </div>
       );
