@@ -27,7 +27,13 @@ export default function Order() {
             </p>
         </div>
 
-        <OrderForm/>
+        <div className="order-desc">
+            <p>Not taking orders right now due to moving (April 4 - May 20). Will start back up
+                After May 20! Email me directly in case of a reed emergency :)
+            </p>
+        </div>
+
+        {/* <OrderForm/> */}
         </>
     );
 }

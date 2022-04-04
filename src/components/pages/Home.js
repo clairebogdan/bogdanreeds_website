@@ -30,7 +30,13 @@ export default function Home() {
             </div>
         </div>
 
-        <OrderForm/>
+        <div className='notification'>
+            <h3 className='alert-text'>Not taking orders right now due to moving (April 4 - May 20). Will start back up
+                After May 20! Email me directly in case of a reed emergency :)
+            </h3>
+        </div>
+
+        {/* <OrderForm/> */}
         </>
     );
 }
