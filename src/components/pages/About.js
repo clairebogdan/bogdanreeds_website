@@ -13,21 +13,21 @@ export default function About() {
 
             <div className='about-container'>
                 <p>Bogdan Reeds was established in 2017 and is owned and operated by Claire Bogdan.
-                    Claire Bogdan is a software engineer in Columbus, Ohio,
+                    Claire Bogdan is a software engineer in Summerville, SC,
                     but is also a professionally trained oboist and former middle school
                     band director.
                     <br /><br />
                     Claire began learning to make oboe reeds in 2007. Over several years, she
-                    perfected her craft of making reeds. While attending the Univeristy of South Carolina,
+                    perfected her craft of making reeds. While attending the Univeristy of South Carolina (UofSC),
                     Claire started making and playing on her own reeds. Shortly after, she began selling
                     reeds to her college friends that needed reeds for their classes. This side business
                     continued to grow as local middle and high school band directors started to request reeds from
                     Claire. After graduating in 2017, with a Bachelor's in Music Education and a Performance Certificate
                     in Oboe, Claire made "Bogdan Reeds" official.
                     <br /><br />
-                    Since 2017, Claire has been a middle school band director, a full-time freelance oboist/private teacher,
-                    and is currently a software engineer. Throughout the years, Bogdan Reeds has continued to thrive as her side
-                    business.
+                    While Claire's career journey has shifted from middle school band director --> freelance oboist / private lesson 
+                    teacher --> software engineer, Bogdan Reeds has continued to trive as her side business. Claire also continues to play
+                    oboe in the Charleston Wind Symphony!
                 </p>
 
 

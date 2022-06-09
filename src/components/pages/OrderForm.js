@@ -9,46 +9,46 @@ export default function OrderForm() {
 
     function sendEmail(e) {
         e.preventDefault();
-    
+
         emailjs.sendForm('bogdanreeds', 'bogdanreeds', e.target, 'user_jS6RUTjj8a1tc2Yozo8kf')
-          .then((result) => {
-              alert("Your order inquiry was sent to Bogdan Reeds!");
-              console.log(result.text);
-          }, (error) => {
+            .then((result) => {
+                alert("Your order inquiry was sent to Bogdan Reeds!");
+                console.log(result.text);
+            }, (error) => {
                 alert("Error: " + error.text);
-              console.log(error.text);
-          });
-          e.target.reset()
-      }
-    
-      return (
+                console.log(error.text);
+            });
+        e.target.reset()
+    }
+
+    return (
         <div className='order-container'>
-            <div className='notification'>
+            {/* <div className='notification'>
                 <h3 className='alert-text'>OUT OF STOCK as of March 7th 2022
                 </h3>
-            </div>
+            </div> */}
             <h1 className="order-header">Order Request</h1>
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
-                
-                <label>Full Name: </label>
-                <input required type="text" className="text-input" name="from_name"/>
-                
-                <label>Email: </label>
-                <input required type="email" className="text-input" name="from_email"/>
-                
-                <label>Street Address 1: </label>
-                <input required type="text" className="text-input" name="address1"/>
-                
-                <label>Street Address 2: </label>
-                <input type="text" className="text-input" placeholder="optional" name="address2"/>
-                
-                <label>City: </label>
-                <input required type="text" className="text-input" name="city"/>
-                
-                <label>State: </label>
+
+                    <label>Full Name: </label>
+                    <input required type="text" className="text-input" name="from_name" />
+
+                    <label>Email: </label>
+                    <input required type="email" className="text-input" name="from_email" />
+
+                    <label>Street Address 1: </label>
+                    <input required type="text" className="text-input" name="address1" />
+
+                    <label>Street Address 2: </label>
+                    <input type="text" className="text-input" placeholder="optional" name="address2" />
+
+                    <label>City: </label>
+                    <input required type="text" className="text-input" name="city" />
+
+                    <label>State: </label>
                     <select required className="dropdown" name="state">
-                        <option selected disabled="true"></option> 
+                        <option selected disabled="true"></option>
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
                         <option value="AZ">Arizona</option>
@@ -102,22 +102,22 @@ export default function OrderForm() {
                         <option value="WY">Wyoming</option>
                     </select>
 
-                <label>Zip: </label>
-                <input required type="text" className="text-input" name="zip"/>
-                
-                <label>Number of reeds ($25/ea): </label>
-                <input required type="number" className="number-input" name="quantity"/>
-                
-                <label>Shipping method: </label>
+                    <label>Zip: </label>
+                    <input required type="text" className="text-input" name="zip" />
+
+                    <label>Number of reeds ($25/ea): </label>
+                    <input required type="number" className="number-input" name="quantity" />
+
+                    <label>Shipping method: </label>
                     <select required className="dropdown" name="shipping">
-                        <option selected disabled="true"></option> 
+                        <option selected disabled="true"></option>
                         <option value="Standard">Standard $5</option>
                         <option value="Priority">Priority $8</option>
                     </select>
 
-                <label>Payment method: </label>
+                    <label>Payment method: </label>
                     <select required className="dropdown" name="payment">
-                        <option selected disabled="true"></option> 
+                        <option selected disabled="true"></option>
                         <option value="Venmo">Venmo</option>
                         <option value="Cash App">Cash App</option>
                         <option value="Apple Pay">Apple Pay</option>
@@ -125,9 +125,9 @@ export default function OrderForm() {
                         <option value="Cash">Cash</option>
                     </select>
 
-                <label>Oboe experience: </label>
+                    <label>Oboe experience: </label>
                     <select required className="dropdown" name="years">
-                        <option selected disabled="true"></option> 
+                        <option selected disabled="true"></option>
                         <option value="True Beginner">Beginner (under 1 year)</option>
                         <option value="Intermediate">Intermediate (1 or 2 years)</option>
                         <option value="Advanced">Advanced (3 or 4 years)</option>
@@ -140,6 +140,6 @@ export default function OrderForm() {
                 <input id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
         </div>
-      );
+    );
 
 }
