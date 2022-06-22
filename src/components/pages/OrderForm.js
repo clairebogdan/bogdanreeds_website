@@ -23,10 +23,10 @@ export default function OrderForm() {
 
     return (
         <div className='order-container'>
-            {/* <div className='notification'>
-                <h3 className='alert-text'>OUT OF STOCK as of March 7th 2022
+            <div className='notification'>
+                <h3 className='alert-text'>VACATION (OUT OF OFFICE) - Not taking orders between June 27 - July 10 
                 </h3>
-            </div> */}
+            </div>
             <h1 className="order-header">Order Request</h1>
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
