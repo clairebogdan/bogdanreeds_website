@@ -30,7 +30,8 @@ export default function OrderForm() {
                     Order form should reopen January 2023.
                 </h3>
             </div>
-            <h1 className="order-header">Order Request</h1>
+            <h1 className="order-header">Order Request - Closed until January 2023</h1>
+            {/* FORM IS CLOSED 
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
 
@@ -142,6 +143,7 @@ export default function OrderForm() {
                 </div>
                 <input disabled id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
+        */}
         </div>
     );
 
