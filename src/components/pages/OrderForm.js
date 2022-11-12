@@ -24,7 +24,10 @@ export default function OrderForm() {
     return (
         <div className='order-container'>
             <div className='notification'>
-                <h3 className='alert-text'>BROKEN FINGER (Oct. 3) -- should be back to making reeds in November
+                <h3 className='alert-text'>
+                    Not taking new orders at this time so that I
+                    can catch up on my backlog of current orders that have been delayed due to my broken finger. :(
+                    Order form should reopen January 2023.
                 </h3>
             </div>
             <h1 className="order-header">Order Request</h1>
@@ -137,7 +140,7 @@ export default function OrderForm() {
                     <label>Message: </label>
                     <textarea className="textarea-input" id="" cols="30" rows="8" placeholder="Feel free to write about your oboe experience, how you like your reeds, etc." name="message"></textarea>
                 </div>
-                <input id="sendButton" type="submit" className="btn" value="Send"></input>
+                <input disabled id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
         </div>
     );
