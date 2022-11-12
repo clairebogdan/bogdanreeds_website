@@ -25,12 +25,10 @@ export default function OrderForm() {
         <div className='order-container'>
             <div className='notification'>
                 <h3 className='alert-text'>
-                    Not taking new orders at this time so that I
-                    can catch up on my backlog of current orders that have been delayed due to my broken finger. :(
-                    Order form should reopen January 2023.
+                    Not taking new orders at this time due to broken finger & delayed current orders :(
                 </h3>
             </div>
-            <h1 className="order-header">Order Request - Closed until January 2023</h1>
+            <h1 className="order-header">Order Request - CLOSED until Jan 2, 2023</h1>
             {/* FORM IS CLOSED 
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
