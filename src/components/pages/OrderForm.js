@@ -24,12 +24,11 @@ export default function OrderForm() {
     return (
         <div className='order-container'>
             <div className='notification'>
-                <h3 className='alert-text'>
+                {/* <h3 className='alert-text'>
                     Not taking new orders at this time due to broken finger & delayed current orders :(
-                </h3>
+                </h3> */}
             </div>
-            <h1 className="order-header">Order Request - CLOSED until Jan 2, 2023</h1>
-            {/* FORM IS CLOSED 
+            <h1 className="order-header">Order Request</h1>
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
 
@@ -141,7 +140,6 @@ export default function OrderForm() {
                 </div>
                 <input disabled id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
-        */}
         </div>
     );
 
