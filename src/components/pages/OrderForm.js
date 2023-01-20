@@ -138,7 +138,7 @@ export default function OrderForm() {
                     <label>Message: </label>
                     <textarea className="textarea-input" id="" cols="30" rows="8" placeholder="Feel free to write about your oboe experience, how you like your reeds, etc." name="message"></textarea>
                 </div>
-                <input disabled id="sendButton" type="submit" className="btn" value="Send"></input>
+                <input id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
         </div>
     );
