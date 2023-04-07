@@ -24,10 +24,19 @@ export default function OrderForm() {
     return (
         <div className='order-container'>
             <div className='notification'>
-                {/* <h3 className='alert-text'>
-                    Not taking new orders at this time due to broken finger & delayed current orders :(
-                </h3> */}
+                <h3 className='annoucement-text'>
+                    Reed price has changed for new customers ($30/ea). 
+                    
+                    Existing customers are not affected -- if you have ordered from Bogdan Reeds during or before April 2023, you are 
+                    eligible for the Loyalty Discount ($25/ea)! The Loyalty Discount will end May 2024.
+                </h3>
             </div>
+            {/* DON'T FORGET TO CHANGE THE SEND BUTTON!!! */}
+            {/* <div className='notification'>
+                <h3 className='alert-text'>
+                    OUT OF STOCK - Come back May 1st!
+                </h3>
+            </div> */}
             <h1 className="order-header">Order Request</h1>
             <form onSubmit={sendEmail}>
                 <div className='order-form'>
@@ -106,14 +115,22 @@ export default function OrderForm() {
                     <label>Zip: </label>
                     <input required type="text" className="text-input" name="zip" />
 
-                    <label>Number of reeds ($25/ea): </label>
+                    <label>Number of reeds: </label>
                     <input required type="number" className="number-input" name="quantity" />
+
+                    <label>Loyalty Discount? (Customer as of April 2023 or earlier): </label>
+                    <select required className="dropdown" name="existing">
+                        <option selected disabled="true"></option>
+                        <option value="Yes">Yes ($25/ea)</option>
+                        <option value="No">No ($30/ea)</option>
+                    </select>
 
                     <label>Shipping method: </label>
                     <select required className="dropdown" name="shipping">
                         <option selected disabled="true"></option>
-                        <option value="Standard">Standard $5</option>
-                        <option value="Priority">Priority $8</option>
+                        <option value="Local">$FREE Local Pickup at Claire's House (Summerville)</option>
+                        <option value="Standard">$5 Standard</option>
+                        <option value="Priority">$8 Priority</option>
                     </select>
 
                     <label>Payment method: </label>
@@ -138,7 +155,8 @@ export default function OrderForm() {
                     <label>Message: </label>
                     <textarea className="textarea-input" id="" cols="30" rows="8" placeholder="Feel free to write about your oboe experience, how you like your reeds, etc." name="message"></textarea>
                 </div>
-                <input id="sendButton" type="submit" className="btn" value="Send"></input>
+                {/* Remember to remove 'disabled' when needed! */}
+                <input disabled id="sendButton" type="submit" className="btn" value="Send"></input>
             </form>
         </div>
     );
