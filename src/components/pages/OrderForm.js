@@ -25,9 +25,9 @@ export default function OrderForm() {
         <div className='order-container'>
             <div className='notification'>
                 <h3 className='annoucement-text'>
-                    Reed price has changed for new customers ($30/ea). 
-                    
-                    Existing customers are not affected -- if you have ordered from Bogdan Reeds during or before April 2023, you are 
+                    Reed price has changed for new customers ($28/ea).
+
+                    Existing customers are not affected -- if you have ordered from Bogdan Reeds during or before April 2023, you are
                     eligible for the Loyalty Discount ($25/ea)! The Loyalty Discount will end May 2024.
                 </h3>
             </div>
@@ -122,7 +122,7 @@ export default function OrderForm() {
                     <select required className="dropdown" name="existing">
                         <option selected disabled="true"></option>
                         <option value="Yes">Yes ($25/ea)</option>
-                        <option value="No">No ($30/ea)</option>
+                        <option value="No">No ($28/ea)</option>
                     </select>
 
                     <label>Shipping method: </label>
