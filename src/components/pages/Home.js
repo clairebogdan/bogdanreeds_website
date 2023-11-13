@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css'
 import '../styles/Home.css'
-import OrderForm from './OrderForm';
+import Order from './Order';
 
 export default function Home() {
     return (
@@ -36,7 +36,7 @@ export default function Home() {
                 </h3>
             </div> */}
 
-            <OrderForm />
+            <Order />
         </>
     );
 }
